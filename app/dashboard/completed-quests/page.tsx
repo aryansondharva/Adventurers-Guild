@@ -52,7 +52,7 @@ export default async function CompletedQuestsPage() {
       <p className="text-muted-foreground mb-6">Your full completion history.</p>
 
       {/* Stat row */}
-      <div className="grid grid-cols-2 gap-4 mb-8 sm:grid-cols-2 md:w-fit">
+      <div className="grid grid-cols-2 gap-4 mb-8 md:w-fit">
         <div className="rounded-xl border bg-card p-4 flex items-center gap-3">
           <div className="rounded-full bg-amber-100 p-2">
             <Zap className="h-5 w-5 text-amber-600" />
